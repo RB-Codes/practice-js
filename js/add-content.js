@@ -18,11 +18,11 @@ document.write('<h3>'+greeting+'</h3>');
 
 
 function userChoiceAndQuantity() {
-  var userOrder = prompt('Enter between house and hotel only?');
+  var userOrder = prompt('Enter between house and hotel only');
   var item = '';
 
   while( userOrder !== 'house' && userOrder !== 'hotel') {
-    userOrder = prompt('Enter between house and hotel only?');
+    userOrder = prompt('Enter between house and hotel only');
   }
 
   var itemNumber = prompt('Enter the number?');
